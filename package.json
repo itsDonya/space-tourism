@@ -1,0 +1,19 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "description": "Space tourism multiple-page website",
+  "author": "Donya",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
