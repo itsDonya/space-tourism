@@ -7,15 +7,15 @@
     <span class="w-[30rem] h-0.5 bg-white/20 absolute left-[17%] z-20"></span>
 
     <!-- Top navbar -->
-    <Navbar />
+    <NavbarTop />
   </header>
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
+import NavbarTop from "./navigation/NavbarTop.vue";
 export default {
   components: {
-    Navbar,
+    NavbarTop,
   },
 };
 </script>

@@ -1,8 +1,9 @@
 <template>
   <nuxt-link
-    class="h-full text-white z-20 flex items-center justify-center uppercase hover:border-b-4 transition-all"
+    :class="{ 'exact-active': exactActive }"
+    class="h-full text-white z-20 flex items-center justify-center uppercase hover:border-b-2 transition-all font-barlow tracking-[2px]"
     :to="path"
-    ><span class="mr-2 font-bold">{{ number }}</span
+    ><span v-if="number" class="mr-2 font-bold">{{ number }}</span
     >{{ title }}</nuxt-link
   >
 </template>
@@ -21,14 +22,20 @@ export default {
     },
     number: {
       type: [String, Number],
-      required: true,
+    },
+    exactActive: {
+      type: Boolean,
+      default: false,
     },
   },
 };
 </script>
 
-<style>
-.nuxt-link-active {
-  border-bottom: 4px solid white;
+<style scoped>
+.nuxt-link-active:not(.exact-active) {
+  border-bottom: 2px solid white;
+}
+.exact-active.nuxt-link-exact-active {
+  border-bottom: 2px solid white;
 }
 </style>
