@@ -26,3 +26,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.nuxt-link-active {
+  border-bottom: 4px solid white;
+}
+</style>

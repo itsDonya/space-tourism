@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-screen h-screen px-8 py-12 bg-home-mobile md:bg-home-tablet lg:bg-home-desktop bg-no-repeat bg-fixed bg-cover"
+    class="w-screen h-screen py-12 bg-home-mobile md:bg-home-tablet lg:bg-home-desktop bg-no-repeat bg-fixed bg-cover"
   >
     <Header />
-    <main>
+    <main class="w-full mt-32">
       <nuxt />
     </main>
   </div>
