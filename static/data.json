@@ -44,6 +44,7 @@
   "crew": [
     {
       "name": "Douglas Hurley",
+      "pathName": "douglas-hurley",
       "images": {
         "png": "../crew/image-douglas-hurley.png",
         "webp": "../crew/image-douglas-hurley.webp"
@@ -53,6 +54,7 @@
     },
     {
       "name": "Mark Shuttleworth",
+      "pathName": "mark-shuttleworth",
       "images": {
         "png": "../crew/image-mark-shuttleworth.png",
         "webp": "../crew/image-mark-shuttleworth.webp"
@@ -62,6 +64,7 @@
     },
     {
       "name": "Victor Glover",
+      "pathName": "victor-glover",
       "images": {
         "png": "../crew/image-victor-glover.png",
         "webp": "../crew/image-victor-glover.webp"
@@ -71,6 +74,7 @@
     },
     {
       "name": "Anousheh Ansari",
+      "pathName": "anousheh-ansari",
       "images": {
         "png": "../crew/image-anousheh-ansari.png",
         "webp": "../crew/image-anousheh-ansari.webp"

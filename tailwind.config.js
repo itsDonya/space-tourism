@@ -26,6 +26,10 @@ module.exports = {
           "url('/destination/background-destination-tablet.jpg')",
         "destination-desktop":
           "url('/destination/background-destination-desktop.jpg')",
+        // Crew backgrounds
+        "crew-mobile": "url('/crew/background-crew-mobile.jpg')",
+        "crew-tablet": "url('/crew/background-crew-tablet.jpg')",
+        "crew-desktop": "url('/crew/background-crew-desktop.jpg')",
       },
       colors: {
         "dark-blue": "#0B0D17",
@@ -33,7 +37,6 @@ module.exports = {
       },
     },
     fontFamily: {
-      // barlow: "url('/assets/fonts/Barlow/BarlowCondensed-Regular.ttf')",
       barlow: "barlow",
       bellefair: "bellefair",
     },

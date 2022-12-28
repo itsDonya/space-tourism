@@ -1,6 +1,6 @@
 <template>
-  <article class="relative flex flex-col gap-12">
-    <BaseHeading class="pl-24" number="01" text="pick your destination" />
+  <article class="w-full pl-24 flex flex-col items-start gap-14">
+    <BaseHeading class="" number="02" text="meet your crew" />
     <nuxt />
   </article>
 </template>
@@ -8,7 +8,7 @@
 <script>
 import BaseHeading from "../components/UI/BaseHeading.vue";
 export default {
-  layout: "destination",
+  layout: "crew",
   components: {
     BaseHeading,
   },
