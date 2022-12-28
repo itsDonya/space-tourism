@@ -6,11 +6,13 @@
     <h1 class="text-white font-bellefair text-5xl uppercase">
       {{ crew.name }}
     </h1>
-    <p class="text-light-gray leading-8">{{ crew.bio }}</p>
+    <p class="text-light-gray font-barlow text-lg tracking-[1px] leading-8">
+      {{ crew.bio }}
+    </p>
     <!-- Menu -->
     <NavbarCrew />
     <img
-      class="absolute bottom-0 right-0"
+      class="absolute max-w-[26rem] max-h-[40rem] bottom-0 right-24"
       :src="crew.images.png"
       :alt="crew.name"
     />

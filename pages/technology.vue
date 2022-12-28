@@ -1,6 +1,6 @@
 <template>
-  <article class="w-full pl-24 flex flex-col items-start gap-14">
-    <BaseHeading number="02" text="meet your crew" />
+  <article class="relative flex flex-col gap-8">
+    <BaseHeading class="pl-24" number="03" text="space launch 101" />
     <nuxt />
   </article>
 </template>
@@ -8,7 +8,7 @@
 <script>
 import BaseHeading from "../components/UI/BaseHeading.vue";
 export default {
-  layout: "crew",
+  layout: "technology",
   components: {
     BaseHeading,
   },
